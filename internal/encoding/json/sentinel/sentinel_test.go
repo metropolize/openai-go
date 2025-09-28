@@ -1,11 +1,12 @@
 package sentinel_test
 
 import (
-	"github.com/openai/openai-go/v2/internal/encoding/json/sentinel"
-	"github.com/openai/openai-go/v2/packages/param"
 	"reflect"
 	"slices"
 	"testing"
+
+	"github.com/metropolize/openai-go/v2/internal/encoding/json/sentinel"
+	"github.com/metropolize/openai-go/v2/packages/param"
 )
 
 type Pair struct {

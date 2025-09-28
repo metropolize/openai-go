@@ -5,12 +5,12 @@ package realtime
 import (
 	"encoding/json"
 
-	"github.com/openai/openai-go/v2/internal/apijson"
-	"github.com/openai/openai-go/v2/option"
-	"github.com/openai/openai-go/v2/packages/param"
-	"github.com/openai/openai-go/v2/packages/respjson"
-	"github.com/openai/openai-go/v2/responses"
-	"github.com/openai/openai-go/v2/shared/constant"
+	"github.com/metropolize/openai-go/v2/internal/apijson"
+	"github.com/metropolize/openai-go/v2/option"
+	"github.com/metropolize/openai-go/v2/packages/param"
+	"github.com/metropolize/openai-go/v2/packages/respjson"
+	"github.com/metropolize/openai-go/v2/responses"
+	"github.com/metropolize/openai-go/v2/shared/constant"
 )
 
 // RealtimeService contains methods and other services that help with interacting

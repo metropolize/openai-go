@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/openai/openai-go/v2"
+	"github.com/metropolize/openai-go/v2"
 )
 
 func main() {

@@ -1,8 +1,9 @@
 package apijson
 
 import (
-	"github.com/openai/openai-go/v2/packages/respjson"
 	"reflect"
+
+	"github.com/metropolize/openai-go/v2/packages/respjson"
 )
 
 func getSubField(root reflect.Value, index []int, name string) reflect.Value {

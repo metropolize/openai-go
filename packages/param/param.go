@@ -2,8 +2,9 @@ package param
 
 import (
 	"encoding/json"
-	"github.com/openai/openai-go/v2/internal/encoding/json/sentinel"
 	"reflect"
+
+	"github.com/metropolize/openai-go/v2/internal/encoding/json/sentinel"
 )
 
 // NullStruct is used to set a struct to the JSON value null.

@@ -11,8 +11,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/openai/openai-go/v2"
-	"github.com/openai/openai-go/v2/option"
+	"github.com/metropolize/openai-go/v2"
+	"github.com/metropolize/openai-go/v2/option"
 )
 
 func TestContainerFileContentGet(t *testing.T) {

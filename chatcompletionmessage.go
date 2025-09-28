@@ -10,11 +10,11 @@ import (
 	"net/url"
 	"slices"
 
-	"github.com/openai/openai-go/v2/internal/apiquery"
-	"github.com/openai/openai-go/v2/internal/requestconfig"
-	"github.com/openai/openai-go/v2/option"
-	"github.com/openai/openai-go/v2/packages/pagination"
-	"github.com/openai/openai-go/v2/packages/param"
+	"github.com/metropolize/openai-go/v2/internal/apiquery"
+	"github.com/metropolize/openai-go/v2/internal/requestconfig"
+	"github.com/metropolize/openai-go/v2/option"
+	"github.com/metropolize/openai-go/v2/packages/pagination"
+	"github.com/metropolize/openai-go/v2/packages/param"
 )
 
 // ChatCompletionMessageService contains methods and other services that help with

@@ -3,9 +3,9 @@
 package webhooks
 
 import (
-	"github.com/openai/openai-go/v2/internal/apierror"
-	"github.com/openai/openai-go/v2/packages/param"
-	"github.com/openai/openai-go/v2/shared"
+	"github.com/metropolize/openai-go/v2/internal/apierror"
+	"github.com/metropolize/openai-go/v2/packages/param"
+	"github.com/metropolize/openai-go/v2/shared"
 )
 
 // aliased to make [param.APIUnion] private when embedding

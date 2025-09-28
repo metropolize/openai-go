@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openai/openai-go/v2"
-	"github.com/openai/openai-go/v2/internal/testutil"
-	"github.com/openai/openai-go/v2/option"
-	"github.com/openai/openai-go/v2/shared"
+	"github.com/metropolize/openai-go/v2"
+	"github.com/metropolize/openai-go/v2/internal/testutil"
+	"github.com/metropolize/openai-go/v2/option"
+	"github.com/metropolize/openai-go/v2/shared"
 )
 
 // Mock function to simulate weather data retrieval
