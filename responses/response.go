@@ -56,7 +56,7 @@ func NewResponseService(opts ...option.RequestOption) (r ResponseService) {
 // [web search](https://platform.openai.com/docs/guides/tools-web-search) or
 // [file search](https://platform.openai.com/docs/guides/tools-file-search) to use
 // your own data as input for the model's response.
-func (r *ResponseService) New(ctx context.Context, body ResponseNewParams, opts ...option.RequestOption) (res *Response, err error) {
+func (r *ResponseService) New(ctx context.Context, body any, opts ...option.RequestOption) (res *Response, err error) {
 	opts = slices.Concat(r.Options, opts)
 	path := "responses"
 	err = requestconfig.ExecuteNewRequest(ctx, http.MethodPost, path, body, &res, opts...)
